@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional npm cache directory
+.npm/
+
+# Coverage directories
+coverage/
+
+# Other
+*.bak
+*.orig
+
+# Ignore static assets generated files
+public/uploads/
+
+# Ignore compiled TypeScript files (if applicable)
+*.tsbuildinfo
+
+# Logs from testing frameworks
+test-output/
+
+# Specific to Docker (if using Docker)
+docker-compose.override.yml
